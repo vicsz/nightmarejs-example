@@ -1,6 +1,11 @@
 {
 	"private": true,
+	"scripts": {
+	    "start": "node server.js",
+	    "test": "mocha --reporter spec test --timeout 15000"
+  	},
 	"devDependencies": {
-		"nightmare": "^2.7.0"
+		"nightmare": "^2.7.0",
+		"mocha":"^3.0.2"
 	}
 }
